@@ -1,0 +1,68 @@
+.meeting{
+  border: 0px solid;
+  background-color: rgb(232, 160, 109);
+  display: flex;
+
+}
+ .meeting2{
+  border: 0px solid;
+   display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  padding: 100px;
+
+ }
+
+
+.free{
+  /* flex: 1; */
+  color: white;
+  font-size: 20px;
+}
+
+hr{
+  border: 1px solid white;
+  width: 50px;
+  margin-right: 0px;
+}
+
+.buttons{
+
+  /* padding-top: 30px; */
+  margin-left: 70px;
+
+
+}
+.form{
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+  /* padding-left: 48%;
+  margin-bottom: 10px; */
+
+}
+
+input{
+  border: none;
+}
+
+.button2{
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(124, 120, 120);
+  text-align: center;
+  width:300px;
+  padding: 15px 15px;
+  /* padding: 15px;
+  padding-left: 40%; */
+  color: white;
+
+
+
+}
+
+
+
+

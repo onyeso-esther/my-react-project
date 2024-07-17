@@ -1,0 +1,157 @@
+.container{
+  margin:0;
+  display: flex;
+  border-radius:10px;
+  border: 10px;
+  box-shadow: 20px;
+  margin-right: 45%;
+  margin-left: 10%;
+  padding: 2px 15px;
+
+}
+.text{
+  flex:1;
+}
+
+hr{
+  border: 1px solid orange;
+  width: 50px;
+  margin-top: -5px;
+}
+
+.line{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.image{
+  flex: 1;
+}
+
+.title{
+text-align: center;
+}
+
+.text h3{
+  color: orange;
+}
+
+.line2{
+  display: flex;
+  border: 1px solid orange;
+  width: 40px;
+  margin-top: -8px;
+  
+
+}
+
+
+/* 2nd box */
+
+.container2{
+  margin-top: 20px;
+  display: flex;
+  border-radius:10px;
+  border: 10px;
+  box-shadow: 20px;
+  margin-left: 45%;
+  margin-right: 10%;
+  padding: 2px 15px;
+
+}
+
+.text2{
+  flex:1;
+}
+
+.image2{
+  flex: 1;
+}
+
+.text2 h3{
+  color: orange;
+}
+
+.line3{
+  display: flex;
+  border: 1px solid orange;
+  width: 40px;
+  margin-top: -8px;
+  
+
+}
+
+
+
+/* 3rd box */
+
+.container3{
+  margin-top: 20px;
+  display: flex;
+  border-radius:10px;
+  border: 10px;
+  box-shadow: 20px;
+  margin-right: 45%;
+  margin-left: 10%;
+  padding: 2px 15px;
+
+}
+
+.text3{
+  flex:1;
+}
+
+.image3{
+  flex: 1;
+}
+
+.text3 h3{
+  color: orange;
+}
+
+.line4{
+  display: flex;
+  border: 1px solid orange;
+  width: 40px;
+  margin-top: -8px;
+  
+
+}
+
+
+
+/* forth box */
+.container4{
+  margin-top: 20px;
+  display: flex;
+  border-radius:10px;
+  border: 10px;
+  box-shadow: 20px;
+  margin-left: 45%;
+  margin-right: 10%;
+  padding: 2px 15px;
+
+}
+
+.text4{
+  flex:1;
+}
+
+.image4{
+  flex: 1;
+}
+
+.text4 h3{
+  color: orange;
+}
+
+.line5{
+  display: flex;
+  border: 1px solid orange;
+  width: 40px;
+  margin-top: -8px;
+  
+
+}

@@ -17,11 +17,9 @@ function Header(){
 
     <Link to="/LunarSpecialists" className="nav-link"><li className="nav-item">Lunar Specialists</li></Link>
 
-     <Link to="" className="nav-link"><li className="nav-item">About Us</li></Link>
+     <Link to="/AboutUs" className="nav-link"><li className="nav-item">About Us</li></Link>
 
-     <Link to="" className="nav-link"><li className="nav-item">Team</li></Link>
-     
-      
+    
       <li className="nav-item dropdown">
       <Link to="/Blog" className="nav-link"><li className="nav-item">Blog</li></Link>
         <div className="dropdown-menu">
@@ -30,9 +28,9 @@ function Header(){
           <a className="dropdown-item" href="#">Archives</a>
         </div>
       </li>
-      <li className="nav-item">
-        <a  className="nav-link contact-button" href="#">Contact Us</a >
-      </li>
+      
+        <Link to="/Us" className="nav-link contact-button"><li className="nav-item">Contact Us</li></Link>
+    
     </ul>
     
   </nav>

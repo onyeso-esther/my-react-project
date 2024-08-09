@@ -1,0 +1,50 @@
+.square{
+    margin-top: 5%;
+    display: flex; 
+     border-radius:10px;
+    border: 10px;
+    box-shadow: 20px;
+     margin-left: 10%; 
+     padding: 5px 30px; 
+  
+  }
+
+  .grid{
+    margin-top: 5%;
+  }
+
+  .paragraph{  
+     margin-top: 30px; 
+ } 
+
+ .image{
+   flex: 1;
+   margin-bottom: 10%; 
+   margin-left: 10%;
+}
+
+.topic{
+  text-align: center;
+}
+
+  
+  .square2{
+     margin-top: 20px;
+    display: flex; 
+     border-radius:10px;
+    border: 10px;
+    box-shadow: 20px;
+     margin-right: 10%; 
+     padding: 5px 30px; 
+  
+  }
+
+  .paragraph2{  
+     margin-top: 30px; 
+ } 
+
+ .image2{
+   flex: 1;
+   margin-bottom: 10%; 
+}
+  

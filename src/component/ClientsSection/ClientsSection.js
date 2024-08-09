@@ -9,22 +9,24 @@ function ClientsSection() {
   return(
    <div className="testimonials">
 
-     <div className="header">
-       <h1>Our Testimonials</h1>
-       <hr />
-     </div>
+      <div className="header">
+      <h1>Our Testimonials</h1>
+      <hr />
+      </div>
 
-     <div className="ClientsImage"><img src={ClientsImage} width={200}/>
-        <div className="contents"> 
+     
+
+     <div className="contents">
+     <div className="ClientsImage"><img src={ClientsImage} width={200}/></div>
+     <div className="text"> 
         <p>Lunar Strategy helped us with our digital<br />
            marketing for 4 months now and still helps us.<br />
            Great service and highly recommended.
-           <h4>— Kimmo Hakonen - Skrum Master at DaGear AB</h4>
         </p>
-       
-        </div>
-
+        <h4>— Kimmo Hakonen - Skrum Master at DaGear AB</h4>
+      </div>
      </div>
+
     </div>
   )
 }

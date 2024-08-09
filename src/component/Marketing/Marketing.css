@@ -1,0 +1,26 @@
+.colored{
+  color: orange;
+}
+
+.herosection1{
+
+  margin: 20px 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.herosection1 h1{
+  font-size: 60px;
+}
+
+.contact-us-button {
+  background-color: rgb(244, 183, 70);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer;
+}
+

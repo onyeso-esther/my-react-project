@@ -47,8 +47,8 @@ function HowItWorksSection() {
 
  {/* forth box */}
  <div className="container4">
+     
     <div className="image 4"> <img src={image4} width={300}/></div>
-
    <div className="text4">
         <h3>Launch</h3>
         <div className="line5"></div>

@@ -1,4 +1,4 @@
-import image from "./Group.png"
+import image from "./Group.png";
 import "./HeroSection.css";
 
 function HeroSection() {

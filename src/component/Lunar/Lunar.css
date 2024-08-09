@@ -1,0 +1,11 @@
+.firsts{
+  border: 0px solid;
+  background-color:  rgb(249, 198, 103);
+  padding: 5%;
+  margin: 50px 0px; 
+}
+
+.second h2{
+  color: white;
+  height: 20%;
+}

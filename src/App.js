@@ -1,19 +1,19 @@
-import Header from "./component/Header/Header";
-import HeroSection from "./component/HeroSection/HeroSection";
-import HowItWorksSection from "./component/HowItWorksSection/HowItWorksSection";
-import FreeMeetingSection from "./component/FreeMeetingSection/FreeMeetingSection";
-import ClientsSection from "./component/ClientsSection/ClientsSection";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import Services from "./pages/Services";
+import LunarSpecialists from "./pages/LunarSpecialists";
+import Blog from "./pages/Blog"
+
 
 function App() {
   return (
-    <div>
-
-    <Header />
-    <HeroSection />
-    <HowItWorksSection />
-    <FreeMeetingSection />
-    <ClientsSection />
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/Blog" element={<Blog/>} />
+      <Route path="/LunarSpecialists" element={<LunarSpecialists />} />
+      
+    </Routes>
   );
     
 }

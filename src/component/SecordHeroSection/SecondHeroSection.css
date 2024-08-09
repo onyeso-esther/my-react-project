@@ -1,0 +1,29 @@
+.group{
+  display: flex;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.group2{
+
+   margin: 20px 130px;
+  justify-content: space-between; 
+   align-items: center;  
+
+}
+
+.group2 h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+
+.contact-us-button {
+  background-color: rgb(244, 183, 70);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer;
+}
+
